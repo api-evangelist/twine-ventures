@@ -1,8 +1,16 @@
 aid: twine-ventures
 name: Twine Ventures
-description: 'Twine Ventures is a company surfaced as a portfolio company of foundry-group and added to
-  the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Twine Ventures is an early-stage venture capital firm "transforming human
+  and planetary health," writing first checks into interdisciplinary, data-obsessed
+  founders who use data and AI to transform legacy industries across healthcare,
+  industrials, and fintech/data. It was founded by Leshika Samarasinghe — early Google
+  product team, founding member of ARPA-E, and former Managing Partner at The Production
+  Board — who raised a $25M debut fund in 2022 (WSJ); Ethan Yeh, PhD, former Head of
+  Data Science at Stripe, joined as Managing Partner. Its ~33-company portfolio includes
+  Apella, Alaffia, Rupa Health (acq), Waltz Health (acq), Waymark, Teiko Bio, CloudCruise,
+  and Rowspace. Surfaced as a Foundry Group partner-fund lead in the API Evangelist
+  network; the firm runs a Webflow marketing site and publishes no public API, developer
+  portal, or machine-readable surface.'
 url: https://raw.githubusercontent.com/api-evangelist/twine-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/65d4cc037a097231ce1cecb1/67aaac01e93121815eee434a_Twine-Logo1.png
 tags:
 - Company
 - Venture Capital
+- Venture Firm
+- Investor
+- Early Stage
+- Healthcare
+- Industrials
+- Fintech
+- Data
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/twine-ventures-domain-security.yml
 - type: Website
   url: https://www.twineventures.com
+- type: About
+  url: https://www.twineventures.com/#about
+- type: Portfolio
+  url: https://www.twineventures.com/#portfolio
+- type: Team
+  url: https://www.twineventures.com/#team
+- type: Blog
+  url: https://twinenotes.substack.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/twine-ventures/about/
+- type: LLMsTxt
+  url: llms/twine-ventures-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
